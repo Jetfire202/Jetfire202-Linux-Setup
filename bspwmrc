@@ -19,6 +19,6 @@ bspc rule -a Screenkey manage=off
 
 #AutoStart
 xrandr -s 1600x900
-feh --bg-scale ~/Pictures/Wallpapers/Desktop-Wallpaper.jpg
-~/.config/polybar/launch.sh
+feh --bg-scale ~/Pictures/Wallpapers/(Insert wallpapaper name here).jpg
+$HOME/.config/polybar/launch.sh
 
