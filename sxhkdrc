@@ -4,28 +4,30 @@
 
 # terminal emulator
 super + Return
-	terminator
+	    terminator
 
 # program launcher
 super + @space
-	rofi -show drun
+	    rofi -show drun -show-icons
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
-#My Own ShortCuts
-
-#FireFox
-ctrl + f
-       firefox
-#Nautilus
-ctrl + n
-       nautilus
-
 #
 # bspwm hotkeys
 #
+
+
+ctrl + f
+       firefox
+
+ctrl + n
+       nautilus
+
+ctrl + d
+       discord
+
 
 # quit/restart bspwm
 super + alt + {q,r}
@@ -127,4 +129,4 @@ super + alt + shift + {h,j,k,l}
 
 # move a floating window
 super + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0} 
+	bspc node -v {-20 0,0 20,0 -20,20 0}
